@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".learning.LearningActivity">
+
+    <!-- 1.4 在布局文件中定义这个View -->
+    <com.practice.jamesliandroid.selfdesignview.learning.SelfView1
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:radius_arch = "5dp"
+        app:pop_bg = "@color/colorAccent"
+        />
+
+    <com.practice.jamesliandroid.selfdesignview.learning.SelfView2
+        android:id="@+id/self_view_2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        />
+
+    <com.practice.jamesliandroid.selfdesignview.learning.SelfView3
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+
+        />
+
+    <com.practice.jamesliandroid.selfdesignview.learning.SelfView6
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+       />
+
+</LinearLayout>

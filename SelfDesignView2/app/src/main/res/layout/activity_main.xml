@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.practice.jamesliandroid.selfdesignview.view.RadarView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        />
+
+    <com.practice.jamesliandroid.selfdesignview.example_view.RadarViewFore
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:id="@+id/btn_learn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进行自定义View的学习"
+        />
+
+    <Button
+        android:id="@+id/btn_learn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="84dp"
+        android:text="进行贝塞尔的学习" />
+
+    <com.practice.jamesliandroid.selfdesignview.learning.SelfView5
+        android:layout_width="match_parent"
+        android:layout_height="471dp"
+        android:layout_below="@+id/btn_learn_2"
+        android:layout_marginTop="0dp" />
+
+</RelativeLayout>

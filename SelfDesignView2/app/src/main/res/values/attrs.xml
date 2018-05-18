@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RadarView">
+        <!--  -->
+        <attr name="circleColor" format="color"/>
+        <attr name="circleNum" format="integer" />
+        <attr name="sweepColor" format="color" />
+        <attr name="raindropColor" format="color" />
+        <attr name="raindropNum" format="integer" />
+        <attr name="showCross" format="boolean" />
+        <attr name="showRaindrop" format="boolean" />
+        <attr name="speed" format="float" />
+        <attr name="flicker" format="float"/>
+    </declare-styleable>
+
+    <!--
+    1.2 自定义属性，用在自定义View中
+     -->
+    <declare-styleable name="SelfView1">
+        <!-- 圆角的弧度 -->
+        <attr name="radius_arch" format="dimension"/>
+        <!-- 背景颜色 -->
+        <attr name="pop_bg" format="color" />
+    </declare-styleable>
+</resources>
